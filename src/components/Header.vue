@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h2>Vue Recipe Finder App</h2>
+    <h2>Vue Recipe App</h2>
     <section>
       <input
         type="text"
