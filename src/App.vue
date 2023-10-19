@@ -116,32 +116,21 @@ main {
   input {
     width: 100%;
     padding: 10px;
-    font-size: 20px;
-    border: none;
-    outline: none;
-    border-radius: 3px;
+    font-size: 16px;
   }
 
   button {
     width: 120px;
     padding: 8px;
     font-size: 20px;
-    outline: none;
-    border: 1px solid white;
-    background-color: transparent;
-    color: white;
-    border-radius: 3px;
-    cursor: pointer;
   }
 
   h2 {
     font-size: 30px;
-    color: white;
-    margin-bottom: 10px;
   }
 
   main {
-    padding: 20px;
+    padding: 25px;
   }
 
   .card {
@@ -159,7 +148,7 @@ main {
     text-align: center;
     padding: 10px;
     margin: 0 20px;
-    width: 90px;
+    width: 100px;
   }
 }
 </style>
