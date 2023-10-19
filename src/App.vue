@@ -20,6 +20,7 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -70,7 +71,7 @@ button {
 main {
   display: inline-flex;
   flex-wrap: wrap;
-  padding: 30px;
+  padding: 20px;
 }
 
 .card {
@@ -123,7 +124,7 @@ main {
   }
 
   button {
-    width: 80px;
+    width: 120px;
     padding: 8px;
     font-size: 20px;
     outline: none;
@@ -141,9 +142,7 @@ main {
   }
 
   main {
-    display: inline-flex;
-    flex-wrap: wrap;
-    padding: 70px;
+    padding: 20px;
   }
 
   .card {
@@ -155,6 +154,13 @@ main {
     border-radius: 3px;
     box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.26);
     margin: 20px;
+  }
+
+  .card a {
+    text-align: center;
+    padding: 10px;
+    margin: 0 20px;
+    width: 90px;
   }
 }
 </style>
