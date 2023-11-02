@@ -49,6 +49,9 @@ section {
 input {
   width: 80%;
   padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 20px;
   border: none;
   outline: none;
@@ -58,6 +61,9 @@ input {
 button {
   width: 100px;
   padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 20px;
   outline: none;
   border: 1px solid white;
@@ -70,7 +76,8 @@ button {
 main {
   display: inline-flex;
   flex-wrap: wrap;
-  padding: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -107,9 +114,9 @@ main {
   color: white;
   background-color: rgb(116, 2, 2);
   border-radius: 3px;
-  padding: 10px;
+  padding: 15px 20px;
   margin: 0 20px;
-  width: 80px;
+  width: 120px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -120,8 +127,8 @@ main {
   }
 
   button {
-    width: 120px;
-    padding: 8px;
+    width: 80px;
+    padding: 7px;
     font-size: 20px;
   }
 
